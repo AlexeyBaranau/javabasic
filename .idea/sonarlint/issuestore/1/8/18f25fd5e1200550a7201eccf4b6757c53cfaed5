@@ -1,6 +1,5 @@
 
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Î‹
-7
-java:S1700 "Rename field "powerSupply"(Ç¨õ›8õû´Ü§.
 L
 java:S1068 "/Remove this unused "powerSupply" private field.(Ç¨õ›8õû´Ü§.
+7
+java:S1700 "Rename field "powerSupply"(Ç¨õ›8õû´Ü§.

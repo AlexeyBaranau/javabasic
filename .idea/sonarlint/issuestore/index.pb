@@ -71,3 +71,15 @@ O
 src/lesson2_homework/TASK8.java,2\5\25c64552e0cd4af501da7fb90b39a4f01dc5a709
 W
 'src/lesson2_homework/Homework2Util.java,3\5\35197e152b85cd6c4be1d0f17221939f4689c7fe
+S
+#out/production/javabasic/.gitignore,8\f\8fb7b61d1601e8c50b08b99dc0b3493d4ad934ca
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+P
+ src/lesson2_homework/TASK10.java,e\8\e8885d0d80002b5397e9d8f90507c27449a46cee
+P
+ src/lesson2_homework/TASK20.java,f\1\f197ee5210d2ca9314af9a2a2ce59ae79b65dc2a
+P
+ src/lesson3/domain/Vehicles.java,8\f\8fb5d09a8ec61d5cf68f5e7e60009817ec18f2b9
+O
+src/lesson2_homework/TASK9.java,4\9\49ea36c963e5f35cef91745cc1289f4bf046d3d6
