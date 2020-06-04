@@ -1,0 +1,73 @@
+
+P
+ src/lesson1_homework/TASK11.java,2\c\2cb2495fd65dadb37c607eb692e8a44cfe91bba5
+Q
+!src/lesson3/domain/Technique.java,b\b\bb8e167f7252db19ac7bd55320d4821dd60b4c8e
+O
+src/lesson1_homework/TASK2.java,f\9\f92a6ad02c066660af8e91afc5b0b6629a22877a
+O
+src/lesson2_homework/TASK3.java,7\5\751e677d0984172c5e35896191a6bd4c19aa5d43
+O
+src/lesson3/domain/CarType.java,c\1\c1a588338a6df88e09ac468d7e7c9253698e4c18
+K
+src/lesson3/domain/Car.java,c\4\c4bba9cca903bfa9fe314b4947dc2315b104f518
+M
+src/lesson3/util/CarUtil.java,f\d\fd1ddfa82d946022e0b65b93388b14f00c241887
+E
+src/lesson3/Demo.java,9\7\97e5b0914c05d55ee747dd6fa22b10112da5a7b7
+I
+src/lesson5/Computer.java,1\8\18f25fd5e1200550a7201eccf4b6757c53cfaed5
+>
+src/.gitignore,9\3\93cbdd0973c9a7b59e5cef90a94300ab95fd66e5
+E
+src/lesson5/Main.java,c\5\c5da7469703c05b1a21791d3fec25c179e7eaf67
+O
+src/lesson1_homework/TASK1.java,9\0\903016e28bb24f82b513acc63c1b942b90a1b4b7
+O
+src/lesson1_homework/TASK5.java,c\3\c3b8cf342fc96ea621ffc8cb9eb3536e9b18e505
+O
+src/lesson1_homework/TASK4.java,9\3\93028b7de8d948171ffd552646cd69caac3dcbb3
+O
+src/lesson1_homework/TASK3.java,a\c\acba8197c0f93f7abcb9d8f52551cfe37b1c114c
+O
+src/lesson1_homework/TASK6.java,5\6\56a0ba4355de9863592c3277ffda7b50a39574be
+O
+src/lesson1_homework/TASK7.java,8\8\88561e6e705f72dbbbbfcd574b4de9eb4838e5b6
+O
+src/lesson1_homework/TASK8.java,3\0\30cc172f33197f3c55d54999bb000ddc3a397729
+P
+ src/lesson1_homework/Months.java,6\0\604e3367b4213276fb6ce363b103aac71bc97be1
+O
+src/lesson1_homework/TASK9.java,e\2\e253b3e91377743ae403ad0b86c1005b70435dca
+P
+ src/lesson1_homework/TASK10.java,9\6\96ed0d3b69bdb4e0a5d30ba51c8816904d4d849d
+P
+ src/lesson1_homework/TASK12.java,7\3\73d5ea1767e60d48a901501ff6b9030ddf49afc8
+P
+ src/lesson1_homework/TASK13.java,b\7\b7989ad43b453bbe11723c9059e53e13748c4b32
+P
+ src/lesson1_homework/TASK16.java,5\3\5365cbdf5d1597ffe9ab9dd4aaf32a49c6027c33
+P
+ src/lesson1_homework/TASK17.java,7\1\71b58577fd7089f2c760339472bba3ea59598a50
+P
+ src/lesson1_homework/TASK15.java,9\d\9dfab22241b26112c212d1720fe5ce7c12911232
+P
+ src/lesson1_homework/TASK14.java,1\5\1524e4772bda025f8aac4c60e724263739a2b297
+P
+ src/lesson1_homework/TASK18.java,6\e\6ebfa922141aa51afe28062549677b3d8bf7267c
+O
+src/lesson2_homework/TASK2.java,3\3\331e8319f6590961271228a08f2e667ce58e7c01
+O
+src/lesson2_homework/TASK4.java,9\6\96237efcca58cd22e4d20c175c3903c64b3dbc22
+O
+src/lesson2_homework/TASK5.java,7\e\7edaf778fc8392d4a8519f08fd0286b7cc16c985
+O
+src/lesson2_homework/TASK6.java,0\1\01fe49c9ad4d573a6686208b4e1bc33593a51f9b
+O
+src/lesson2_homework/TASK1.java,6\f\6f40cc7a7b3a38cda1c42328b166fd120a3654b2
+O
+src/lesson2_homework/TASK7.java,f\c\fcb8c3b6d7d7182205937d19b06cd768de26bf7e
+O
+src/lesson2_homework/TASK8.java,2\5\25c64552e0cd4af501da7fb90b39a4f01dc5a709
+W
+'src/lesson2_homework/Homework2Util.java,3\5\35197e152b85cd6c4be1d0f17221939f4689c7fe
