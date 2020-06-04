@@ -15,10 +15,10 @@ public class TASK14 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         if (a > b) {
-            a = a + 3;
+            a += 3;
         }
         else {
-            b = b + 8;
+            b += 8;
         }
         System.out.println(a + " " + b);
     }

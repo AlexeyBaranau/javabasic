@@ -1,14 +1,14 @@
 package lesson3.domain;
 
-public class Car {
+public class Car extends Vehicles {
     private String carType;
     private int carWeight;
-    private float carVenichleVolume;
+    private double carVenichleVolume;
 
     public Car() {
     }
 
-    public Car(String carType, int carWeight, float carVenichleVolume) {
+    public Car(String carType, int carWeight, double carVenichleVolume) {
         this.carType = carType;
         this.carWeight = carWeight;
         this.carVenichleVolume = carVenichleVolume;
@@ -31,11 +31,11 @@ public class Car {
         return carWeight;
     }
 
-    public float getCarVenichleVolume() {
+    public double getCarVenichleVolume() {
         return carVenichleVolume;
     }
 
-    public void setCarVenichleVolume(float carVenichleVolume) {
+    public void setCarVenichleVolume(double carVenichleVolume) {
         this.carVenichleVolume = carVenichleVolume;
     }
 

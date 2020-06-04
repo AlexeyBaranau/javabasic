@@ -6,11 +6,11 @@ package lesson1_homework;
 
 public class TASK9 {
     public static void main(String[] args) {
+       int c;
        int a = 1, b = 5;
-       a = a + b;
-       b = b - a;
-       b = -b;
-       a = a - b;
+       c = a;
+       a = b;
+       b = c;
         System.out.println(a + " " + b);
     }
 }

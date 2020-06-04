@@ -8,7 +8,7 @@ package lesson1_homework;
 public class TASK16 {
     public static void main(String[] args) {
         for (int i = 10; i <= 55; i += 5) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
     }

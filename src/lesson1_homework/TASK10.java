@@ -7,7 +7,7 @@ package lesson1_homework;
 public class TASK10 {
     public static void main(String[] args) {
        int a = 10, b = 20, sum;
-        System.out.println(sum = a + b);
+        System.out.println("Cумма а + b = " + (sum = a + b));
     }
 }
 
