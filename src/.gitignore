@@ -1,7 +1,4 @@
-/.idea/
-.idea
-.out*
+# Project exclude paths
+/out/
 *.iml
-/dist
-/temp
-/out
+*.idea
