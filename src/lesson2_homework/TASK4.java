@@ -3,13 +3,15 @@
 package lesson2_homework;
 
 
+import static lesson2_homework.Homework2Util.*;
+
 public class TASK4 {
     public static void main(String[] args) {
         Integer arr[] = {14, 15, 25, 3, 41, 8, 9, 47, 83, 15, 7, 65};
         double sum = 0;
         int n = arr.length;
         System.out.println("Массив случайных чисел");
-        Homework2Util.arrayToPrint(arr);
+        printArray(arr);
         for (Integer i : arr) {
             sum += i;
         }

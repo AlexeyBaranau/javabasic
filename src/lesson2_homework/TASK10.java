@@ -3,13 +3,12 @@
 package lesson2_homework;
 
 
+import static lesson2_homework.Homework2Util.*;
+
 public class TASK10 {
     public static void main(String[] args) {
-        int[] arr = new int[30];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) (Math.random() * 1000);
-            System.out.print(arr[i] + " ");
-        }
+        int[] arr = randomArray();
+        printArray(arr);
         int max = arr[0];
         int min = arr [0];
         for (int i = 1; i < arr.length; i++) {
