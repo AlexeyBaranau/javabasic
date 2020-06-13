@@ -1,10 +1,5 @@
 
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¦Šôøÿÿÿÿ
-N
-java:S1197"8Move the array designator from the variable to the type.(Ï±Æ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(öÁÿÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8…Ğ´ƒ¨.
 M
 java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¡‰›şÿÿÿÿÿ
+N
+java:S1197"8Move the array designator from the variable to the type.(Ï±Æ

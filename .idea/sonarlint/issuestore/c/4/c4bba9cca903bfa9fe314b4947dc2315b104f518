@@ -1,5 +1,5 @@
 
 C
-java:S1172"-Remove this unused method parameter "random".(•éñ±
-D
-java:S21404")Use "java.util.Random.nextInt()" instead.(íž–¬øÿÿÿÿ
+java:S1172"-Remove this unused method parameter "random".(•éñ±
+K
+java:S2140&")Use "java.util.Random.nextInt()" instead.(Ð—÷æûÿÿÿÿ8”ô¾Ÿ©.

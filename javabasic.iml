@@ -7,5 +7,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../Учеба/commons-lang3-3.10-bin/commons-lang3-3.10" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../Учеба/commons-lang3-3.10-bin/commons-lang3-3.10/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../Учеба/commons-lang3-3.10-bin/commons-lang3-3.10" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../Учеба/commons-lang3-3.10-bin/commons-lang3-3.10" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Учеба/commons-lang3-3.10-bin/commons-lang3-3.10" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

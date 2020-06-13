@@ -83,3 +83,35 @@ P
  src/lesson3/domain/Vehicles.java,8\f\8fb5d09a8ec61d5cf68f5e7e60009817ec18f2b9
 O
 src/lesson2_homework/TASK9.java,4\9\49ea36c963e5f35cef91745cc1289f4bf046d3d6
+P
+ src/lesson2_homework/TASK11.java,d\e\de49b0e58e512751c4a97b30ebf13f40cce4eab0
+P
+ src/lesson2_homework/TASK12.java,b\9\b90ff43a3210814ffad19f5b567bc4a7f04c06c1
+P
+ src/lesson2_homework/TASK13.java,1\6\162f0ad29979203f4ce5b697b5ad3761d2cd6fb4
+P
+ src/lesson2_homework/TASK14.java,f\4\f47429f7d73a3efd0949ac8a031b74059c80f22f
+P
+ src/lesson2_homework/TASK15.java,5\d\5d7cc8ba3e1dd5a961d477d7f93fca5572b6ec14
+P
+ src/lesson2_homework/TASK16.java,0\c\0c97d17cd03044700cc48c7c4fd2bfa3404606db
+P
+ src/lesson2_homework/TASK17.java,4\a\4a123f5d36484aaf1df2ef1a82c57d03b292d5b5
+P
+ src/lesson2_homework/TASK18.java,8\7\8712946adf378bed0d79d8be1d986120d93f3ab2
+P
+ src/lesson2_homework/TASK19.java,0\0\008c680b5134e47109f1d70db158df53e18673bb
+T
+$src/lesson3/domain/CarDriveType.java,c\7\c7f63ab4ecda4c0d6c656a81c6e250ec126b186c
+O
+src/lesson7/CollectionsTwo.java,8\e\8eb4a6024eaebdd20b7879c9be5716da5af0b5d4
+L
+src/lesson7/Collections.java,1\c\1c39bbd051064982a80e780180b422936444a636
+X
+(src/lesson8_homework/util/UtilClass.java,c\5\c50e75a75d84f0c33c2f8a9b49d17e688dd7c04c
+U
+%src/lesson8_homework/domain/Book.java,2\e\2e21c5860d56a18f2f182fa8df93e802d0dcadac
+N
+src/lesson8_homework/Demo.java,f\1\f10084ce0f6372cb19253cae213d4b44e6de56a7
+I
+src/lesson8_homework/TAsk,d\3\d3a0303efc80fb429fd8285efbd7d0237d5808d8

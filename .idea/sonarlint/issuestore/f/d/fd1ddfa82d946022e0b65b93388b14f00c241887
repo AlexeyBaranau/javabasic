@@ -1,6 +1,11 @@
 
-T	java:S106 "9Replace this use of System.out or System.err by a logger.(ÿ®Ái8ß‡™Ü§.
 I
-java:S1128"3Remove this unused import 'java.math.RoundingMode'.(¿ì†‹
+java:S1128"3Remove this unused import 'java.math.RoundingMode'.(¿ì†‹
 P
-java:S1118":Add a private constructor to hide the implicit public one.(ğ‚ñÈ
+java:S1118":Add a private constructor to hide the implicit public one.(ğ‚ñÈ
+O
+java:S1128"3Remove this unused import 'lesson3.domain.CarType'.(œ”èT8²”Ø©.
+_
+java:S2184"BCast one of the operands of this addition operation to a "double".(‡£âø8­®©.
+_
+java:S2184 "BCast one of the operands of this addition operation to a "double".(¥»‘Ç8­®©.
