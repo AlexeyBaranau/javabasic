@@ -48,6 +48,7 @@ public class Demo {
         }
 
         System.out.println();
+
         System.out.println("**********************TASK3**********************");
         System.out.println();
         LinkedList<Book> booksLinkedListforSort = generateLinkedListBooks(25);
@@ -72,6 +73,7 @@ public class Demo {
             System.out.println(book);  }
 
         System.out.println();
+
         System.out.println("**********************TASK4**********************");
         System.out.println();
         Set <Student> studentsSet = generateStudentSet(20);
