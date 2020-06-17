@@ -2,6 +2,7 @@ package lesson8_homework;
 
 import lesson8_homework.domain.Book;
 import lesson8_homework.domain.Student;
+import lesson8_homework.util.ExceptionsUtil;
 import lesson8_homework.util.StudentsUtilClass;
 import lesson8_homework.util.UtilClass;
 import org.w3c.dom.ls.LSOutput;
@@ -94,5 +95,15 @@ public class Demo {
             }
         }
         System.out.println("Student set size: " + studentsSet.size());
+        System.out.println();
+
+        LinkedList<Book> books = generateLinkedListBooks(30);
+        try {
+            Book lev = ExceptionsUtil.searchInBooks("Lev", books);
+            System.out.println(lev);
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 }
 }

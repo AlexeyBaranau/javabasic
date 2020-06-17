@@ -1,3 +1,14 @@
 
 Y
-java:S1128"<Remove this unused import 'lesson8_homework.util.UtilClass'.(ß¥8¬±³÷ª.
+java:S1128"<Remove this unused import 'lesson8_homework.util.UtilClass'.(ß¥8¬±³÷ª.
+X
+java:S14817";Remove this unused "booksLinkedListforSort" local variable.(œÑ²™8îÙáùª.
+T
+java:S1128
+"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Ÿ¡×ùª.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8ŸãÀûª.
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8…›“øª.
+a
+java:S1128"DRemove this unused import 'lesson8_homework.util.StudentsUtilClass'.(Š»ÿÁ8Ñ¼ì«.
