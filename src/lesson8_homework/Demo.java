@@ -7,8 +7,10 @@ import lesson8_homework.util.StudentsUtilClass;
 import lesson8_homework.util.UtilClass;
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Set;
 
@@ -90,13 +92,12 @@ public class Demo {
             if (studentId % 2 == 0 && studentId != 0) {
                 System.out.println(student);
             }
-            else {
-                studentsSet.remove(student);
-            }
         }
+        studentsSet.removeIf(student -> student.getStudentId() %2 != 0);
         System.out.println("Student set size: " + studentsSet.size());
         System.out.println();
 
+        System.out.println("**********************TASK EXCEPTIONS**********************");
         LinkedList<Book> books = generateLinkedListBooks(30);
         try {
             Book lev = ExceptionsUtil.searchInBooks("Lev", books);
