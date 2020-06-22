@@ -5,23 +5,16 @@ import lesson8_homework.domain.Student;
 import lesson8_homework.util.ExceptionsUtil;
 import lesson8_homework.util.StudentsUtilClass;
 import lesson8_homework.util.UtilClass;
-import org.w3c.dom.ls.LSOutput;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Set;
-
-import static lesson8_homework.util.StudentsUtilClass.*;
-import static lesson8_homework.util.UtilClass.*;
 
 public class Demo {
     public static void main(String[] args) {
         System.out.println("**********************TASK1**********************");
         System.out.println();
-        LinkedList<Book> booksLinkedList = generateLinkedListBooks(20);
+        LinkedList<Book> booksLinkedList = UtilClass.generateLinkedListBooks(20);
         System.out.println("Books list:");
         for (Book book : booksLinkedList) {
             System.out.println(book);
@@ -36,7 +29,7 @@ public class Demo {
 
         System.out.println("**********************TASK2**********************");
         System.out.println();
-        Set<Book> booksSet = generateSetBooks(25);
+        Set<Book> booksSet = UtilClass.generateSetBooks(25);
         System.out.println("Books Set size:");
         System.out.println(booksSet.size());
         char [] vowels = {'A', 'E', 'I', 'O', 'U'};
@@ -54,7 +47,7 @@ public class Demo {
 
         System.out.println("**********************TASK3**********************");
         System.out.println();
-        LinkedList<Book> booksLinkedListforSort = generateLinkedListBooks(25);
+        LinkedList<Book> booksLinkedListforSort = UtilClass.generateLinkedListBooks(25);
         System.out.println("BooksLinkedListSort by bookname");
         booksLinkedList.sort(Comparator.comparing(Book::getBookName));
         for (Book book : booksLinkedList) {
@@ -79,7 +72,7 @@ public class Demo {
 
         System.out.println("**********************TASK4**********************");
         System.out.println();
-        Set <Student> studentsSet = generateStudentSet(20);
+        Set <Student> studentsSet = StudentsUtilClass.generateStudentSet(20);
         System.out.println("Students list:");
         for (Student student : studentsSet) {
             System.out.println(student);
@@ -98,7 +91,7 @@ public class Demo {
         System.out.println();
 
         System.out.println("**********************TASK EXCEPTIONS**********************");
-        LinkedList<Book> books = generateLinkedListBooks(30);
+        LinkedList<Book> books = UtilClass.generateLinkedListBooks(30);
         try {
             Book lev = ExceptionsUtil.searchInBooks("Lev", books);
             System.out.println(lev);
