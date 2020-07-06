@@ -4,9 +4,9 @@ package lesson10_homewrok;
 public class StringDemo {
     public static void main(String[] args)  {
        String textForHomework = "\tThe Java language is closely999 related to the C ++ language, which in turn (delete text) is open" +
-               "heir to C.\n" + "\tMany features (delete text) languages. I mean my syntax, and many 8 of its object-oriented" +
-               "properties were (delete text) ported from C ++.\n" + "\tAs a matter 777 of fact, a number of defining 222characteristics (delete text) of the Java language has been " +
-               "transferred - or developed in response to arising needs are from his predecessors. ";
+               "heir to C.\n" + "\tMany features (delete text) languages. Java I mean my syntax, and many 8 of its Java object-oriented" +
+               "properties were Java (delete text) ported from C ++?\n" + "\tAs a matter 777 of fact, a number of defining 222characteristics (delete text) of the Java language has been " +
+               "transferred - or developed in Java response to arising needs are Java from his predecessors? ";
         /*1. Преобразовать текст так, чтобы каждое слово начиналось с заглавной буквы.*/
         System.out.println("\t\t\t*******************Task1*******************");
         System.out.println(StringUtil.firstLetterToUppperCase(textForHomework));
@@ -43,7 +43,8 @@ public class StringDemo {
         StringUtil.countOfVowelsAndNotVowels(textForHomework);
 
         /*8. Во всех вопросительных предложениях текста найти и напечатать без повторений слова заданной длины*/
-
+        System.out.println("\t\t\t*******************Task8*******************");
+        StringUtil.repeatingWords(textForHomework);
 
     }
 }

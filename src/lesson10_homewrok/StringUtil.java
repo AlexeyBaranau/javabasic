@@ -1,11 +1,14 @@
 package lesson10_homewrok;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 public class StringUtil {
 
@@ -102,6 +105,37 @@ public class StringUtil {
                 System.out.println("В предложении " + (i + 1) + " количество гласных и согласных равно");
             }
         }
+    }
+
+//    public static void wordsHashSet (String string){
+//        String defaultString = "";
+//        Pattern pattern = Pattern.compile("([\\w][^.!?]*)\\?");
+//        Matcher matcher = pattern.matcher(string);
+//        while (matcher.find()) {
+//            defaultString = defaultString.concat(matcher.group().replaceAll("[^a-zA-z]", " "));
+//        }
+//        String[] words = defaultString.split("\\s");
+//        HashSet<String> wordsHashSet = new HashSet<>(Arrays.asList(words));
+//        for (String s : wordsHashSet) {
+//            System.out.println(s);
+//        }
+//    }
+
+
+    public static void repeatingWords (String string){
+        String defaultString = "";
+        Pattern pattern = Pattern.compile("([\\w][^.!?]*)\\?");
+        Matcher matcher = pattern.matcher(string);
+        while (matcher.find()) {
+            defaultString = defaultString.concat(matcher.group().replaceAll("[^a-zA-z]", " "));
+        }
+        List<String> words = Arrays.asList(defaultString);
+        words.stream()
+                .flatMap((s) -> Arrays.asList(s.split("\\s")).stream())
+                .filter(s -> s.length() == 4)
+                .distinct()
+                .forEach(System.out::println);
+
     }
 
 }
