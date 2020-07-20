@@ -1,11 +1,16 @@
 package lesson8_homework.domain;
 
+import lesson15.Annotation;
+
 import java.util.Objects;
 
+@Annotation
 public class Book {
     private Long bookId;
+    @Annotation
     private String bookAuthorName;
     private String bookAuthorSurname;
+    @Annotation
     private String bookName;
     private String bookAuthorMiddleName;
 
@@ -33,7 +38,7 @@ public class Book {
     public String getBookAuthorSurname() {        return bookAuthorSurname;    }
 
     public void setBookAuthorSurname(String bookAuthorSurname) {        this.bookAuthorSurname = bookAuthorSurname;    }
-
+    @Annotation
     public String getBookName() {        return bookName;    }
 
     public void setBookName(String bookName) {        this.bookName = bookName;    }

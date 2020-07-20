@@ -1,15 +1,17 @@
 package lesson8_homework.util;
 
+import lesson15.Annotation;
 import lesson8_homework.domain.Book;
 import lesson8_homework.domain.Student;
 
 import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
-
+@Annotation
 public class StudentsUtilClass {
     public static final String [] studentsNames = {"Lev", "Fedor", "Mihail", "Ivan", "Anton", "Alexander", "Nikolay",
             "Vladimir", "Alexey", "Samuil"};
+    @Annotation
     public static final String [] studentsSurnames = {"Tolstoy", "Dostoevskiy", "Bulgakov", "Sholokhov", "Lermontov",
             "Pushkin", "Turgenev", "Gogol", "Nabokov", "Tolstoy", "Marshak", "Mayakovskiy"};
 
@@ -27,7 +29,7 @@ public class StudentsUtilClass {
         int age = (int) (17 + Math.random()*13);
         return age;
     }
-
+    @Annotation
     public static Student generateStudent (int id){
         Student student = new Student();
         student.setStudentId(id);

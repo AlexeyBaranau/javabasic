@@ -1,5 +1,6 @@
 package lesson8_homework.util;
 
+import lesson15.Annotation;
 import lesson8_homework.domain.Book;
 
 import java.util.HashSet;
@@ -41,7 +42,6 @@ public class UtilClass {
         int authorSurnamePosition = new Random().nextInt(bookAuthorSurnames.length);
         return bookAuthorSurnames[authorSurnamePosition];
     }
-
     public static Book generateBook(long id) {
         Book book = new Book();
         book.setBookId(id);
@@ -61,7 +61,6 @@ public class UtilClass {
         book.setBookAuthorSurname("Schildt");
         return book;
     }
-
     public static LinkedList<Book> generateLinkedListBooks(int booksCount) {
         LinkedList<Book> books = new LinkedList<>();
         for (int i = 0; i < booksCount; i++) {

@@ -1,7 +1,10 @@
 package lesson8_homework.domain;
 
+import lesson15.Annotation;
+
 import java.util.Objects;
 
+@Annotation
 public class Student implements Comparable<Student>{
     private int studentId;
     private String studentName;
@@ -18,7 +21,7 @@ public class Student implements Comparable<Student>{
     }
 
     public String getStudentName() {        return studentName;    }
-
+    @Annotation
     public void setStudentName(String studentName) {        this.studentName = studentName;    }
 
     public String getStudentSurname() {        return studentSurname;    }
